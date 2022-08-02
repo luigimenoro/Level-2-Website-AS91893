@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap"); /*Font Family imported from Google fonts - this font is going to be used for the navigation links*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the header*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the main-body texts*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the quotes texts*/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the sub-headers texts*/
+
+:root {
+  --primary-colour: #3b245a;
+  --hovered-colour: #604487;
+  --gradient-background-colour: linear-gradient(180deg, rgba(89, 113, 185, 0) 4.17%, rgba(50, 57, 79, 0.277485) 7.81%, rgba(12, 30, 83, 0.73) 82.29%);
+  --max-width: 1679px;
+  --font-style-navigation: "Inter", sans-serif;
+  --font-style-main-headers: "Bebas Neue", cursive;
+  --font-stlyle-main-body: "Open Sans", sans-serif;
+  --font-style-quotes: "Lato", sans-serif;
+  --font-style-sub-headers: "Merriweather Sans", sans-serif;
+}
+* {
+  /*To change the default values of the web browser*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #000;
+  font-size: 30px;
+  line-height: 1.5;
+  background: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-container {
+  width: 90%;
+  max-width: var(--max-width);
+  margin: auto;
+  height: auto;
+}
+
+/*Start of the navigation bar*/
+.main-nav {
+  display: flex;
+  position: absolute;
+  font-family: var(--font-style-navigation);
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+  font-size: 23px;
+  width: 90%;
+  max-width: var(--max-width);
+  margin-top: 30px;
+}
+
+.main-nav .logo {
+  width: 190px;
+  left: 0;
+  margin-right: auto;
+}
+
+.main-nav ul {
+  display: flex;
+}
+
+.main-nav ul li {
+  padding: 0 20px;
+}
+
+.main-nav ul li a:hover {
+  opacity: 81%;
+}
+
+.main-nav ul li a {
+  padding-bottom: 2px;
+  transition: 0.4s;
+}
+.main-nav ul.main-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+/*Start of the hero section*/
+.hero-section {
+  background-image: url("/Images/Rectangle\ 2Main-header.jpg");
+  min-height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  position: absolute;
+  right: 50%;
+}
+
+/*Hero section - texts*/
+.text-container {
+  margin-top: 16rem;
+  color: #fff;
+}
+
+.text-container p {
+  min-width: 63%;
+  width: 50%;
+  font-size: 22px;
+  font-family: var(--font-stlyle-main-body);
+  margin-bottom: 12px;
+}
+
+.text-container h1 {
+  font-size: 155px;
+  font-family: var(--font-style-main-headers);
+  line-height: 120px;
+}
+
+.text-container a {
+  font-size: 18px;
+  font-family: var(--font-stlyle-main-body);
+}
+
+.btn {
+  padding: 13px 30px;
+  background-color: var(--primary-colour);
+  border-radius: 42px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: var(--hovered-colour);
+}
