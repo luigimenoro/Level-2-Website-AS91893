@@ -202,3 +202,142 @@ h3 {
   display: flex;
   justify-content: flex-end;
 }
+
+/*Start of "What does Matariki Mean?"*/
+.matariki-meaning {
+  margin-bottom: 5rem;
+}
+.main-text-container h1 {
+  font-family: var(--font-style-sub-headers);
+  font-size: 60px;
+  font-weight: 80px;
+}
+
+.main-text-container p {
+  font-family: var(--font-stlyle-main-body);
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.bg2-image {
+  height: 45rem;
+  background-size: contain;
+  background-image: url(/Images/Rectangle\ 10Two\ people\ sky.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.bg2-image .source-btn {
+  padding: 10px;
+}
+
+/*Start of Cards*/
+
+.card-section {
+  display: grid;
+  margin-top: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+.card {
+  height: 17rem;
+  padding: 15px;
+  background: var(--gradient-background-colour);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-section .card h3 {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-section .card p {
+  font-family: var(--font-stlyle-main-body);
+  font-size: 20px;
+  text-align: center;
+}
+
+/*Start of footer*/
+.seperator {
+  width: 100%;
+  height: 3px;
+  background-color: var(--primary-colour);
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.left-info-footer {
+  width: 500px;
+}
+
+.left-info-footer h1 {
+  font-family: var(--font-style-navigation);
+  font-size: 60px;
+  font-weight: 1500;
+}
+
+.left-info-footer p {
+  width: 350px;
+}
+
+.right-info-footer {
+  text-align: right;
+  width: 500px;
+}
+
+.right-info-footer h3 {
+  margin-top: 20px;
+  margin-bottom: 26px;
+  font-family: var(--font-style-navigation);
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.right-info-footer p,
+.left-info-footer p {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.right-info-footer p {
+  margin-top: 20px;
+}
+
+a.sources {
+  text-decoration: underline;
+}
+
+.logo,
+.sources {
+  transition: 0.7s;
+}
+
+.social-logo:hover,
+.sources:hover {
+  color: var(--hovered-colour);
+}
+
+.social-medialinks a {
+  padding: 1.5px;
+}
