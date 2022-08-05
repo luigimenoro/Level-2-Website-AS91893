@@ -29,35 +29,38 @@ body {
   background: black;
 }
 
-a {
+ul li a {
   color: white;
   text-decoration: none;
 }
 
-ul {
+ul li {
   list-style: none;
 }
 
-.main-container {
-  width: 90%;
+p {
+  font-family: var(--font-stlyle-main-body);
+}
+
+h1,
+p,
+h2,
+h3 {
+  color: #fff;
+}
+
+.wrapper {
+  width: 88%;
   max-width: var(--max-width);
   margin: auto;
   height: auto;
 }
 
-/*Start of the navigation bar*/
-.main-nav {
-  display: flex;
-  position: absolute;
-  font-family: var(--font-style-navigation);
-  align-items: center;
-  height: 60px;
-  padding: 20px 0;
-  font-size: 21px;
-  width: 90%;
-  max-width: var(--max-width);
-  margin-top: 30px;
+.src-btn {
+  width: 37px;
 }
+
+/*Start of the navigation bar*/
 
 .main-nav .logo {
   width: 190px;
@@ -65,12 +68,24 @@ ul {
   margin-right: auto;
 }
 
+.main-nav {
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-style-navigation);
+}
+
+.fix-nav {
+  position: fixed;
+  width: 100%;
+}
+
 .main-nav ul {
   display: flex;
 }
 
 .main-nav ul li {
-  padding: 0 20px;
+  padding: 45px 20px;
 }
 
 .main-nav ul li a:hover {
@@ -86,31 +101,22 @@ ul {
   margin-left: 20px;
 }
 
-/*Start of the hero section*/
-.hero-section {
-  background-image: url("/Images/Rectangle\ 2Main-header.jpg");
+.header-wrapper {
   min-height: 100vh;
-  /* Center and scale the image nicely */
+  background-image: url(/Images/Rectangle\ 2Main-header.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  left: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  max-width: 100vw;
-  position: absolute;
-  right: 50%;
 }
 
 /*Hero section - texts*/
 .text-container {
-  margin-top: 16rem;
+  padding-top: 16rem;
   color: #fff;
 }
 
 .text-container p {
-  min-width: 63%;
-  width: 50%;
+  width: 50rem;
   font-size: 22px;
   font-family: var(--font-stlyle-main-body);
   margin-bottom: 12px;
@@ -124,6 +130,8 @@ ul {
 
 .text-container a {
   font-size: 18px;
+  text-decoration: none;
+  color: white;
   font-family: var(--font-stlyle-main-body);
 }
 
@@ -138,7 +146,59 @@ ul {
   background-color: var(--hovered-colour);
 }
 
+/*Image Section*/
 .image-section {
-  position: absolute;
-  color: white;
+  margin-top: 1.5em;
+  margin-bottom: 1.5rem;
+  height: auto;
+  color: #fff;
+}
+
+.bg-image {
+  height: 44vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-image: url(/Images/Rectangle\ 5camping-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-overlay {
+  width: 750px;
+  padding: 10px;
+  background: rgba(4, 4, 4, 0.78);
+}
+
+.text-overlay p {
+  margin-left: 2rem;
+  font-size: 23px;
+}
+
+.source-btn {
+  padding: 20px;
+}
+
+/*Start of the quote section*/
+.blockquote {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.quote p {
+  font-style: var(--font-style-quotes);
+  font-size: 30px;
+  text-align: center;
+}
+
+.pattern {
+  height: 5rem;
+}
+
+.maori-pattern2 {
+  margin-top: 14px;
+  display: flex;
+  justify-content: flex-end;
 }
