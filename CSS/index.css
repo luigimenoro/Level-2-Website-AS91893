@@ -53,7 +53,7 @@ ul {
   align-items: center;
   height: 60px;
   padding: 20px 0;
-  font-size: 23px;
+  font-size: 21px;
   width: 90%;
   max-width: var(--max-width);
   margin-top: 30px;
@@ -136,4 +136,9 @@ ul {
 
 .btn:hover {
   background-color: var(--hovered-colour);
+}
+
+.image-section {
+  position: absolute;
+  color: white;
 }
