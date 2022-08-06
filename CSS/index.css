@@ -60,6 +60,29 @@ h3 {
   width: 37px;
 }
 
+/*When the user scrolls down the navigation bar will change according to the code below*/
+.bgc {
+  background: rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+}
+
+.bgc .main-nav {
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.bgc .main-nav ul li {
+  padding: 20px 10px;
+}
+
+.bgc .main-nav .logo {
+  width: 180px;
+  left: 0;
+  padding: 10px;
+  margin-right: auto;
+  transition: 0.5s;
+}
+
 /*Start of the navigation bar*/
 
 .main-nav .logo {
@@ -69,7 +92,7 @@ h3 {
 }
 
 .main-nav {
-  font-size: 21px;
+  font-size: 22px;
   display: flex;
   align-items: center;
   font-family: var(--font-style-navigation);
@@ -111,7 +134,7 @@ h3 {
 
 /*Hero section - texts*/
 .text-container {
-  padding-top: 16rem;
+  padding-top: 15.6rem;
   color: #fff;
 }
 
@@ -194,7 +217,7 @@ h3 {
 }
 
 .pattern {
-  height: 5rem;
+  height: 4.9rem;
 }
 
 .maori-pattern2 {
@@ -308,7 +331,7 @@ h3 {
 
 .right-info-footer h3 {
   margin-top: 20px;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
   font-family: var(--font-style-navigation);
   font-weight: bold;
   font-size: 45px;
@@ -328,7 +351,7 @@ a.sources {
   text-decoration: underline;
 }
 
-.logo,
+.social-logo,
 .sources {
   transition: 0.7s;
 }
