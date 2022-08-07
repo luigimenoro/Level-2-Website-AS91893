@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the main-body texts*/
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the quotes texts*/
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the sub-headers texts*/
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the cards- texts*/
 
 :root {
   --primary-colour: #3b245a;
@@ -48,7 +49,10 @@ h2,
 h3 {
   color: #fff;
 }
-
+.alt-image {
+  z-index: -1;
+  color: white;
+}
 .wrapper {
   width: 88%;
   max-width: var(--max-width);
@@ -63,7 +67,7 @@ h3 {
 /*When the user scrolls down the navigation bar will change according to the code below*/
 .bgc {
   background: rgba(0, 0, 0, 0.75);
-  transition: 0.5s;
+  transition: 0.9s;
 }
 
 .bgc .main-nav {
@@ -92,7 +96,7 @@ h3 {
 }
 
 .main-nav {
-  font-size: 22px;
+  font-size: 21px;
   display: flex;
   align-items: center;
   font-family: var(--font-style-navigation);
@@ -101,6 +105,7 @@ h3 {
 .fix-nav {
   position: fixed;
   width: 100%;
+  z-index: 999999;
 }
 
 .main-nav ul {
@@ -108,7 +113,7 @@ h3 {
 }
 
 .main-nav ul li {
-  padding: 45px 20px;
+  padding: 45px 10px;
 }
 
 .main-nav ul li a:hover {
@@ -134,7 +139,7 @@ h3 {
 
 /*Hero section - texts*/
 .text-container {
-  padding-top: 15.6rem;
+  padding-top: 16rem;
   color: #fff;
 }
 
@@ -189,18 +194,27 @@ h3 {
 }
 
 .text-overlay {
-  width: 750px;
-  padding: 10px;
+  width: 800px;
   background: rgba(4, 4, 4, 0.78);
 }
 
 .text-overlay p {
   margin-left: 2rem;
-  font-size: 23px;
+  font-size: 25px;
 }
 
 .source-btn {
   padding: 20px;
+  background-image: url(/Images/Source\ button\ hoverSource.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.source-btn:hover {
+  background-image: url(/Images/Property\ 1=Variant2source-btnhovered.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*Start of the quote section*/
@@ -210,14 +224,13 @@ h3 {
   color: #fff;
 }
 
+.pattern {
+  height: 5rem;
+}
 .quote p {
   font-style: var(--font-style-quotes);
   font-size: 30px;
   text-align: center;
-}
-
-.pattern {
-  height: 4.9rem;
 }
 
 .maori-pattern2 {
@@ -245,17 +258,15 @@ h3 {
 .bg2-image {
   height: 45rem;
   background-size: contain;
-  background-image: url(/Images/Rectangle\ 10Two\ people\ sky.png);
+  background-image: url("/Images/Rectangle\ 10Two\ people\ sky.png");
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: darken;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-}
-
-.bg2-image .source-btn {
-  padding: 10px;
 }
 
 /*Start of Cards*/
@@ -311,17 +322,13 @@ h3 {
 }
 
 .left-info-footer {
-  width: 500px;
+  width: 400px;
 }
 
 .left-info-footer h1 {
   font-family: var(--font-style-navigation);
-  font-size: 60px;
-  font-weight: 1500;
-}
-
-.left-info-footer p {
-  width: 350px;
+  font-size: 50px;
+  font-weight: bolder;
 }
 
 .right-info-footer {
@@ -331,20 +338,16 @@ h3 {
 
 .right-info-footer h3 {
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 19.2px;
   font-family: var(--font-style-navigation);
   font-weight: bold;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .right-info-footer p,
 .left-info-footer p {
   margin-top: 10px;
-  font-size: 24px;
-}
-
-.right-info-footer p {
-  margin-top: 20px;
+  font-size: 26px;
 }
 
 a.sources {

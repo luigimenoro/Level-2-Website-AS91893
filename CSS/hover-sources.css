@@ -1,0 +1,49 @@
+/*This is for the source button, whenever the user hovers over the source button the information of where I got the image will be shown to the users */
+
+html {
+  overflow-x: hidden;
+}
+
+.source-btn {
+  --scale: 0;
+  --arrow-size: 10px;
+  position: relative;
+  padding: 50px;
+}
+
+.source-btn::before,
+.source-btn::after {
+  position: absolute;
+  font-size: 25px;
+  right: -350px;
+  top: -1rem;
+  transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+  transition: 90ms transform;
+  transform-origin: bottom bottom;
+}
+
+.source-btn::before {
+  --translate-y: calc(-70% - var(--arrow-size));
+  content: attr(data-tooltip);
+  position: absolute;
+  color: black;
+  padding: 10px;
+  width: max-content;
+  background-color: white;
+  border-radius: 0.3rem;
+  text-align: left;
+}
+
+.source-btn::after {
+  --translate-y: calc(0.5 * var(--arrow-size));
+  content: "";
+  border: 20px solid transparent;
+  border-top-color: white;
+  right: 10px;
+  transform-origin: bottom bottom;
+}
+
+.source-btn:hover::before,
+.source-btn:hover::after {
+  --scale: 1;
+}
