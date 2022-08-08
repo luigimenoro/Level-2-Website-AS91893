@@ -1,5 +1,5 @@
 /*This is for the source button, whenever the user hovers over the source button the information of where I got the image will be shown to the users */
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the main-body texts*/
 html {
   overflow-x: hidden;
 }
@@ -14,8 +14,9 @@ html {
 .source-btn::before,
 .source-btn::after {
   position: absolute;
-  font-size: 25px;
+  font-size: 22px;
   right: -350px;
+  font-family: "Open Sans", sans-serif;
   top: -1rem;
   transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
   transition: 90ms transform;

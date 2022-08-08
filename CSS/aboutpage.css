@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap"); /*Font Family imported from Google fonts - this font is going to be used for the navigation links*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the header*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the main-body texts*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the quotes texts*/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the sub-headers texts*/
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the cards- texts*/
+
+:root {
+  --primary-colour: #3b245a;
+  --hovered-colour: #604487;
+  --gradient-background-colour: linear-gradient(180deg, rgba(89, 113, 185, 0) 4.17%, rgba(50, 57, 79, 0.277485) 7.81%, rgba(12, 30, 83, 0.73) 82.29%);
+  --max-width: 1679px;
+  --font-style-navigation: "Inter", sans-serif;
+  --font-style-main-headers: "Bebas Neue", cursive;
+  --font-stlyle-main-body: "Open Sans", sans-serif;
+  --font-style-quotes: "Lato", sans-serif;
+  --font-style-sub-headers: "Merriweather Sans", sans-serif;
+}
+
+/*Start of the navigation bar*/
+
+.header-wrapper1 {
+  height: 160px;
+}
+
+/*Start of the main-body, or the main text
+this includes the sections "What is Matariki", "Significance of Matariki", and "Why celebreate Matariki"*/
+
+.right-align-text,
+.left-align-text {
+  width: 80%;
+}
+
+.right-align-text a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: var(--font-stlyle-main-body);
+}
+
+.right-align-text .title,
+.left-align-text .title {
+  font-family: var(--font-style-sub-headers);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.right-align-text .right-align-body-text,
+.left-align-text .left-align-body-text {
+  font-family: var(--font-stlyle-main-body);
+  font-size: 22px;
+}
+
+.right-align-text .right-align-body-text p,
+.left-align-text .left-align-body-text p {
+  margin-bottom: 19px;
+}
+
+/*Start of the three images section*/
+
+.three-images {
+  width: 100%;
+}
+
+.image3-sections {
+  height: 80vh;
+}
+
+.sourcebtns {
+  top: -110px;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.source {
+  width: 700px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.source2 {
+  width: 750px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.source3 {
+  padding-right: 20px;
+  padding-bottom: 10px;
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn3 {
+  padding: 50px 0 50px 50px;
+}
+/*Start of the right-align text*/
+.left-align-text {
+  position: relative;
+  float: right;
+  margin-top: 40px;
+  text-align: right;
+}
+
+/*Start of Why Celebrate Matariki*/
+.why-celebrate {
+  margin-top: 20em;
+}
+
+.title-long {
+  width: 90%;
+}
+
+/*Start of the quote section*/
+
+.quote-image {
+  position: relative;
+  width: 100%;
+}
+.second-motif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+}
+
+.quote-text p {
+  position: relative;
+  width: 100%;
+  font-family: "Lora", serif;
+  font-size: 35px;
+}
+
+.large-image {
+  margin-top: 19px;
+  background-image: url(/Images/Rectangle\ 13two-girls-image.png);
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
+  height: 900px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-position: bottom 90px right -90px;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
