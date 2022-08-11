@@ -98,6 +98,7 @@ h3 {
 .main-nav {
   font-size: 21px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   font-family: var(--font-style-navigation);
 }
@@ -151,7 +152,7 @@ h3 {
 }
 
 .text-container h1 {
-  font-size: 155px;
+  font-size: 170px;
   font-family: var(--font-style-main-headers);
   line-height: 120px;
 }
