@@ -162,3 +162,71 @@
 .cards:hover .cards-title {
   text-decoration: underline;
 }
+
+/*Start of the container*/
+.map-container {
+  margin-top: 5rem;
+  height: 80vh;
+  margin-bottom: 14rem;
+}
+
+#map {
+  height: 80vh;
+  width: 100%;
+}
+
+.stargazing-info h1 {
+  font-family: var(--font-style-sub-headers);
+  font-size: 60px;
+  font-weight: 80px;
+}
+
+.stargazing-info p {
+  font-family: var(--font-stlyle-main-body);
+  font-size: 22px;
+  margin-bottom: 25px;
+  width: 80%;
+}
+
+/*Start of the Map Container*/
+.card-section-map {
+  max-width: 400px;
+  min-width: 295px;
+}
+
+.image1 {
+  width: 400px;
+  min-width: 295px;
+}
+
+.map-image {
+  width: 100%;
+}
+
+.container-title {
+  color: black;
+  font-family: var(--font-style-main-headers);
+  font-size: 35px;
+}
+
+.container-paragraph {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: black;
+  font-family: var(--font-stlyle-main-body);
+  font-size: 14px;
+}
+
+.card-section-map a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--font-stlyle-main-body);
+}
+
+.card-section-map .btn {
+  margin-top: 10px;
+}
+
+.dark-sky-title {
+  padding-top: 5px;
+}
