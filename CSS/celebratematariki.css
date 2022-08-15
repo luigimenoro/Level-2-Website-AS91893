@@ -65,10 +65,15 @@
 .cards-section {
   margin-top: 15px;
   display: grid;
-  gap: 15px;
+  gap: 1.5rem;
   grid-template-columns: repeat(3, 1fr);
   position: inherit;
 }
+
+.cards-section a {
+  text-decoration: none;
+}
+
 .cards {
   border-radius: 21px;
   display: flex;
@@ -175,7 +180,8 @@
   width: 100%;
 }
 
-.stargazing-info h1 {
+.stargazing-info h1,
+.section-title h1 {
   font-family: var(--font-style-sub-headers);
   font-size: 60px;
   font-weight: 80px;

@@ -35,6 +35,10 @@ html {
   text-align: left;
 }
 
+#hero-section-btn::before {
+  right: -260px;
+}
+
 .source-btn::after {
   --translate-y: calc(0.5 * var(--arrow-size));
   content: "";

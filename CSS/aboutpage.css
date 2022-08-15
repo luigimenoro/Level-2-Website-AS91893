@@ -141,6 +141,7 @@ this includes the sections "What is Matariki", "Significance of Matariki", and "
   background-color: rgba(0, 0, 0, 0.3);
   background-blend-mode: darken;
   height: 900px;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

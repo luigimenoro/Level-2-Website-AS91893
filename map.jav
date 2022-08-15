@@ -70,7 +70,7 @@ function initMap() {
         </div>
         <h1 class = "container-title">Good Heavens Stargazing Experiences</h1>
         <p class = "container-paragraph">Lean back in a comfy chair, listen to the waves as the Milky Way comes into focus friendly island guides entertain you with interesting facts and fascinating stories. And illuminate our planet’s place in the universe, while you get lost in the stars. </p>
-        <a href="https://www.newzealand.com/nz/plan/business/good-heavens-stargazing-experiences-local-guides-seaside-dark-sky-sanctuary/" class="btn">Learn More...</a>
+        <a href="https://www.newzealand.com/nz/plan/business/good-heavens-stargazing-experiences-local-guides-seaside-dark-sky-sanctuary/"  target="_blank" class="btn">Learn More...</a>
       </div>
         `;
    
@@ -91,7 +91,7 @@ function initMap() {
         </div>
         <h1 class = "container-title">Great Barrier Island</h1>
         <p class = "container-paragraph">Great Barrier Island - perfect for star-gazing enthusiasts. The forests, beaches and bays provide scope for all kinds of wilderness adventures.</p>
-        <a href="https://www.newzealand.com/nz/great-barrier-island/" class="btn">Learn More...</a>
+        <a href="https://www.newzealand.com/nz/great-barrier-island/"  target="_blank" class="btn">Learn More...</a>
       </div>
         `;
    
@@ -111,7 +111,7 @@ function initMap() {
          </div>
          <h1 class = "container-title dark-sky-title">Dark Sky Project, Takapō</h1>
          <p class = "container-paragraph">Embark on an interactive journey delivering insight into the world of tātai aroraki (Māori astronomy) and partake in the Dark Sky Project stargazing experience at Mt John Observatory. </p>
-         <a href="https://www.darkskyproject.co.nz/" class="btn">Learn More...</a>
+         <a href="https://www.darkskyproject.co.nz/" class="btn"  target="_blank">Learn More...</a>
        </div>
          `;
     
@@ -132,7 +132,7 @@ function initMap() {
          </div>
          <h1 class = "container-title">Under The Stars</h1>
          <p class = "container-paragraph">Stargazing is a wonderful, accessible and low risk activity available all year round. Whether your guests know nothing, something or a lot about astronomy, everyone will enjoy it. </p>
-         <a href="https://www.newzealand.com/nz/plan/business/under-the-stars-wairarapa-astronomy/" class="btn">Learn More...</a>
+         <a href="https://www.newzealand.com/nz/plan/business/under-the-stars-wairarapa-astronomy/"  target="_blank" class="btn">Learn More...</a>
        </div>
          `;
     
@@ -152,7 +152,7 @@ function initMap() {
            </div>
            <h1 class = "container-title">Christchurch Astro Tours</h1>
            <p class = "container-paragraph">Christchurch Astro Tours introduce you to the southern night sky. Operating from a location a mere 30 minutes south of central Christchurch.. </p>
-           <a href="https://www.newzealand.com/nz/plan/business/christchurch-astro-tours/" class="btn">Learn More...</a>
+           <a href="https://www.newzealand.com/nz/plan/business/christchurch-astro-tours/"  target="_blank" class="btn">Learn More...</a>
          </div>
            `;
       
@@ -172,7 +172,7 @@ function initMap() {
            </div>
            <h1 class = "container-title">Pukaki Wine Cellar Observatory Stargazing</h1>
            <p class = "container-paragraph">Pukaki Wine Cellar Observatory offers a small group stargazing experience of the Aoraki Mackenzie International Dark Sky Reserve. Located at Mt Cook Lakeside Estate & Retreat, the Observatory offers a personalised 2-3 hour experience. </p>
-           <a href="https://www.newzealand.com/nz/plan/business/pukaki-wine-cellar-observatory/" class="btn">Learn More...</a>
+           <a href="https://www.newzealand.com/nz/plan/business/pukaki-wine-cellar-observatory/"  target="_blank" class="btn">Learn More...</a>
          </div>
            `;
       
@@ -192,7 +192,7 @@ function initMap() {
           </div>
           <h1 class = "container-title">Castlepoint Scenic Reserve</h1>
           <p class = "container-paragraph"> At Castlepoint you can hunt for one of the world&#180;s rarest daisies, climb Castle Rock or watch the waves for dolphins and fur seals.</p>
-          <a href="https://www.newzealand.com/nz/feature/castlepoint-scenic-reserve/" class="btn">Learn More...</a>
+          <a href="https://www.newzealand.com/nz/feature/castlepoint-scenic-reserve/"  target="_blank" class="btn">Learn More...</a>
         </div>
           `;
      

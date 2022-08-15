@@ -1,0 +1,673 @@
+/*Responsiveness of each page*/
+
+@media (width: 1920px) {
+  .text-container {
+    padding-top: 18rem;
+    color: #fff;
+  }
+
+  .text-container p {
+    width: 50rem;
+    font-size: 24px;
+    font-family: var(--font-stlyle-main-body);
+    margin-bottom: 12px;
+  }
+
+  .text-container h1 {
+    font-size: 190px;
+    font-family: var(--font-style-main-headers);
+    line-height: 120px;
+  }
+
+  .large-image {
+    background-position: bottom 80px right 40px;
+  }
+
+  .text-container1 {
+    position: relative;
+    padding-top: 5rem;
+    color: #fff;
+  }
+
+  .text-container1 p {
+    width: 50rem;
+    font-size: 22px;
+    font-family: var(--font-stlyle-main-body);
+    margin-bottom: 12px;
+  }
+
+  .text-container1 h1 {
+    font-size: 160px;
+    width: 6em;
+    font-family: var(--font-style-main-headers);
+    line-height: 130px;
+  }
+
+  .cards {
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+    width: 500px;
+  }
+
+  .image {
+    max-height: 281.4px;
+    border-top-right-radius: 21px;
+    border-top-left-radius: 21px;
+  }
+
+  .image2,
+  .image4,
+  .image5 {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .text-container h1 {
+    line-height: 140px;
+  }
+
+  .image3-sections {
+    height: 70vh;
+  }
+
+  .first-btn::before {
+    right: -500px;
+  }
+
+  .why-celebrate {
+    margin-top: 27em;
+  }
+
+  .large-img-btn::before {
+    right: -290px;
+  }
+
+  .cards-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cards {
+    width: 500px;
+  }
+
+  .image {
+    max-height: 281px;
+  }
+
+  .image2,
+  .image4,
+  .image5 {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .image3-sections {
+    height: 60vh;
+  }
+
+  .cards {
+    width: 480px;
+  }
+
+  .image {
+    max-height: 270px;
+  }
+
+  .image2,
+  .image4,
+  .image5 {
+    width: 480px;
+  }
+}
+
+@media (max-width: 960px) {
+  .why-celebrate {
+    margin-top: 30em;
+  }
+  .right-align-text,
+  .left-align-text {
+    width: 90%;
+  }
+
+  .image3-sections {
+    height: 37vh;
+  }
+  .source-btn::before {
+    --translate-y: calc(-50% - var(--arrow-size));
+  }
+
+  .source-btn {
+    background-size: 40px 40px;
+  }
+
+  .source-btn::before {
+    font-size: 15px;
+    right: -230px;
+  }
+
+  .first-btn::before {
+    right: -400px;
+  }
+
+  .second-motif {
+    height: 90px;
+  }
+
+  .left-info-footer h1 {
+    font-size: 40px;
+  }
+
+  .quote-text p {
+    font-size: 25px;
+  }
+
+  .large-image {
+    background-position: bottom 10px right -270px;
+  }
+
+  /* Footer Responsiveness */
+
+  .left-info-footer p,
+  .right-info-footer p {
+    font-size: 20px;
+  }
+
+  .large-image {
+    height: 120vh;
+    background-position: bottom 90px right -450px;
+  }
+
+  .right-info-footer h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+
+  .card {
+    height: 18rem;
+  }
+
+  .card-section .card h3 {
+    font-size: 25px;
+  }
+
+  .card-section .card p {
+    font-size: 18px;
+  }
+
+  .quote p {
+    font-size: 26px;
+  }
+  .pattern {
+    height: 5rem;
+  }
+
+  .text-overlay {
+    width: 600px;
+  }
+
+  .text-overlay p {
+    margin-left: 2rem;
+    font-size: 18px;
+  }
+
+  .cards {
+    width: 390px;
+  }
+
+  .taniwha {
+    height: 570px;
+  }
+
+  .taniwha-info {
+    margin-top: 3.9rem;
+  }
+
+  .matariki-fireworks {
+    margin-top: 3.9rem;
+  }
+
+  .image {
+    max-height: 219px;
+  }
+
+  .image2,
+  .image4,
+  .image5 {
+    width: 390px;
+  }
+}
+
+@media (max-width: 800px) {
+  /* Homepaeg Reponsive */
+  .text-container {
+    padding-top: 10rem;
+  }
+
+  .text-container p {
+    width: 35rem;
+    font-size: 19px;
+    font-family: var(--font-stlyle-main-body);
+    margin-bottom: 12px;
+  }
+
+  .text-container h1 {
+    font-size: 140px;
+    font-family: var(--font-style-main-headers);
+    line-height: 120px;
+  }
+
+  .text-overlay {
+    width: 800px;
+  }
+
+  .text-overlay p {
+    margin-left: 2rem;
+    font-size: 18px;
+  }
+
+  .bg-image {
+    height: 60vw;
+  }
+
+  .source-btn {
+    background-size: 30px 30px;
+  }
+
+  /* Source Button Responsive */
+  .source-btn::before {
+    --translate-y: calc(-50% - var(--arrow-size));
+  }
+
+  .source-btn::before {
+    font-size: 15px;
+    right: -230px;
+  }
+
+  .first-btn::before {
+    right: -400px;
+  }
+
+  .quote p {
+    font-size: 20px;
+  }
+  .pattern {
+    height: 4rem;
+  }
+
+  .main-text-container h1 {
+    font-size: 50px;
+  }
+
+  .main-text-container p {
+    font-size: 18px;
+  }
+
+  .bg2-image {
+    background-position: bottom 20px right -150px;
+  }
+
+  .card {
+    height: 15rem;
+  }
+
+  .card-section .card h3 {
+    font-size: 20px;
+  }
+
+  .card-section .card p {
+    font-size: 16px;
+  }
+
+  /* About Page Responsiveness */
+
+  .right-align-text,
+  .left-align-text {
+    width: 100%;
+  }
+
+  .right-align-text .title,
+  .left-align-text .title {
+    font-size: 30px;
+  }
+
+  .image3-sections {
+    height: 37vh;
+  }
+
+  .right-align-text a {
+    font-size: 18px;
+  }
+
+  .right-align-text .right-align-body-text,
+  .left-align-text .left-align-body-text {
+    font-family: var(--font-stlyle-main-body);
+    font-size: 18px;
+  }
+
+  .second-motif {
+    height: 90px;
+  }
+
+  .left-info-footer h1 {
+    font-size: 40px;
+  }
+
+  .quote-text p {
+    font-size: 20px;
+  }
+
+  /* Celebrate Matariki */
+  .text-container1 h1 {
+    font-size: 110px;
+  }
+
+  .text-container1 p {
+    width: 40rem;
+    font-size: 20px;
+  }
+
+  .stargazing-info h1,
+  .section-title h1 {
+    font-size: 40px;
+    font-weight: 80px;
+  }
+
+  .why-celebrate {
+    margin-top: 24em;
+  }
+
+  .cards-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cards {
+    width: 330px;
+  }
+
+  .image {
+    max-height: 186px;
+  }
+
+  .image2,
+  .image4,
+  .image5 {
+    width: 330px;
+  }
+
+  .taniwha-info {
+    margin-top: 1rem;
+  }
+
+  .taniwha-card {
+    height: 580px;
+  }
+
+  .map-container {
+    margin-top: 2rem;
+    margin-bottom: 16rem;
+  }
+
+  .stargazing-info p {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  /* Footer Responsiveness */
+
+  .left-info-footer p,
+  .right-info-footer p {
+    font-size: 20px;
+  }
+
+  .large-image {
+    height: 120vh;
+    background-position: bottom 90px right -450px;
+  }
+
+  .right-info-footer h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* Home Page responsiveness */
+  .wrapper {
+    width: 100%;
+  }
+
+  .main-nav .logo,
+  .bgc .main-nav .logo {
+    width: 150px;
+    left: 0;
+    margin-right: auto;
+  }
+
+  .main-nav,
+  .bgc .main-nav {
+    font-size: 17px;
+    justify-content: space-around;
+  }
+
+  .header-wrapper {
+    min-height: 90vh;
+    background-position: bottom 10px;
+  }
+
+  .text-container {
+    margin-left: 10px;
+    color: #fff;
+  }
+
+  .text-container p {
+    width: 20rem;
+    font-size: 16px;
+  }
+
+  .text-container h1 {
+    font-size: 100px;
+    line-height: 85px;
+  }
+
+  .text-container a {
+    font-size: 12px;
+  }
+
+  .text-overlay {
+    width: 800px;
+  }
+
+  .text-overlay p {
+    margin-left: 2rem;
+    font-size: 14px;
+  }
+
+  .bg-image {
+    height: 80vw;
+  }
+
+  .quote p {
+    font-size: 16px;
+  }
+  .pattern {
+    height: 4rem;
+  }
+
+  .main-text-container h1 {
+    font-size: 30px;
+  }
+
+  .main-text-container {
+    padding-left: 10px;
+    padding-left: 10px;
+  }
+
+  .main-text-container p {
+    font-size: 15px;
+  }
+
+  .bg2-image {
+    height: 30rem;
+    background-position: center right -80px;
+  }
+
+  .card-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+  }
+
+  .card {
+    height: 9rem;
+    grid-gap: 10px;
+  }
+
+  .card-section .card h3 {
+    font-family: "Lora", serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .card-section .card p {
+    font-family: var(--font-stlyle-main-body);
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer-text {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-info-footer {
+    width: 100%;
+  }
+
+  .right-info-footer {
+    text-align: center;
+    width: 100%;
+  }
+
+  /* About Matariki responsiveness */
+  .right-align-text .title,
+  .left-align-text .title {
+    font-size: 17px;
+  }
+
+  .right-align-text {
+    margin-left: 10px;
+    width: 90%;
+  }
+
+  .left-align-text {
+    margin-right: 10px;
+    width: 90%;
+  }
+
+  .right-align-text .right-align-body-text,
+  .left-align-text .left-align-body-text {
+    font-size: 13px;
+  }
+
+  .image3-sections {
+    height: 27vh;
+  }
+
+  .why-celebrate {
+    margin-top: 16em;
+  }
+
+  .right-align-text a {
+    font-size: 15px;
+  }
+
+  .second-motif {
+    height: 60px;
+    margin-top: 20px;
+  }
+
+  .quote-text p {
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .large-image {
+    display: none;
+  }
+
+  .source-btn::before {
+    --translate-y: calc(-50% - var(--arrow-size));
+  }
+
+  .source-btn::before {
+    font-size: 12px;
+    right: -230px;
+  }
+
+  .first-btn::before {
+    right: -400px;
+  }
+
+  .btn3::before {
+    left: -70px;
+  }
+  /* Celebrate Matariki */
+
+  .text-container1 {
+    margin-left: 10px;
+  }
+  .text-container1 h1 {
+    font-size: 80px;
+    width: 90%;
+    line-height: 85px;
+  }
+
+  .hero-image {
+    min-height: 65vh;
+  }
+
+  .text-container1 p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .stargazing-info h1,
+  .section-title h1 {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 80px;
+  }
+
+  .cards-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cards {
+    margin: auto;
+    width: 400px;
+  }
+
+  .image {
+    max-height: 226px;
+  }
+
+  .image2,
+  .image4,
+  .image5 {
+    width: 400px;
+  }
+
+  .stargazing-info p {
+    font-size: 18px;
+    width: 100%;
+    margin-left: 10px;
+  }
+}
