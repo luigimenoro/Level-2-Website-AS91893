@@ -1,6 +1,7 @@
 /*Responsiveness of each page*/
 
 @media (width: 1920px) {
+  /* To make the hero-texts a bit bigger so that it will be the main-focus point the moment the user firstly visits the site */
   .text-container {
     padding-top: 18rem;
     color: #fff;
@@ -19,10 +20,12 @@
     line-height: 120px;
   }
 
+  /* This alters the position of the image, what this means is that the image will be positioned 80px from the bottom of the screen and will be positioned closely to the right by 40pxl */
   .large-image {
     background-position: bottom 80px right 40px;
   }
 
+  /* This is to increase the font-size and also to lower down the positioning of the hero section found in the 'Celebrate Matariki' page */
   .text-container1 {
     position: relative;
     padding-top: 5rem;
@@ -42,6 +45,8 @@
     font-family: var(--font-style-main-headers);
     line-height: 130px;
   }
+
+  /* This is to change the sizes of the cards, this alters the widths of the cards and will be changed based on the size of the screen. On big screen sizes these cards would have a larger widths than normal */
 
   .cards {
     border-radius: 21px;
@@ -65,13 +70,14 @@
   }
 }
 
+/* Resposive designs for screen widths of maximum 1250px */
 @media (max-width: 1250px) {
   .text-container h1 {
     line-height: 140px;
   }
 
   .image3-sections {
-    height: 70vh;
+    height: 55vh;
   }
 
   .first-btn::before {
@@ -85,19 +91,23 @@
   .large-img-btn::before {
     right: -290px;
   }
-
+  /* To change the grid-template-column from 3 1frs to only 2 ifrs. This will make the cards be positioned into 2 columns instead of the normal 3 columns */
   .cards-section {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  /* To change the widths of the cards */
   .cards {
     width: 500px;
   }
+
+  /* To change the images of all cards */
 
   .image {
     max-height: 281px;
   }
 
+  /* To change the image of the 2nd card, 4th card, and the 5th card */
   .image2,
   .image4,
   .image5 {
@@ -171,7 +181,6 @@
   }
 
   /* Footer Responsiveness */
-
   .left-info-footer p,
   .right-info-footer p {
     font-size: 20px;
@@ -205,6 +214,10 @@
   }
   .pattern {
     height: 5rem;
+  }
+
+  #hero-section-btn::before {
+    right: -180px;
   }
 
   .text-overlay {
@@ -244,7 +257,7 @@
 }
 
 @media (max-width: 800px) {
-  /* Homepaeg Reponsive */
+  /* Homepage Reponsive */
   .text-container {
     padding-top: 10rem;
   }
@@ -261,7 +274,7 @@
     font-family: var(--font-style-main-headers);
     line-height: 120px;
   }
-
+  /* To alter the size of the texts, source button, and also the width of the overlay */
   .text-overlay {
     width: 800px;
   }
@@ -299,7 +312,7 @@
   .pattern {
     height: 4rem;
   }
-
+  /* To alter the font-sizes of the h1 and the p in the "What does Matariki Mean" */
   .main-text-container h1 {
     font-size: 50px;
   }
@@ -307,7 +320,7 @@
   .main-text-container p {
     font-size: 18px;
   }
-
+  /* To alter the background position of the image so that it will be centred */
   .bg2-image {
     background-position: bottom 20px right -150px;
   }
@@ -325,7 +338,7 @@
   }
 
   /* About Page Responsiveness */
-
+  /* Responsives of the header-title and main body paragraphs found in the "About Matariki" page. This codes, for how it will look like when the screen is at this specific widdth */
   .right-align-text,
   .left-align-text {
     width: 100%;
@@ -367,11 +380,14 @@
     font-size: 110px;
   }
 
+  /* Specifies teh width of the paragraph found in the header section, this is done so that it will be seen clearly and not get cut off */
+
   .text-container1 p {
     width: 40rem;
     font-size: 20px;
   }
 
+  /* Altering the font-size of the header title, this is done so that it will fit the page */
   .stargazing-info h1,
   .section-title h1 {
     font-size: 40px;
@@ -382,14 +398,17 @@
     margin-top: 24em;
   }
 
+  /* Positioning the cards into two column, 3 cards per each column */
   .cards-section {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  /* Change the width of the cards to 330px */
   .cards {
     width: 330px;
   }
 
+  /* Change the height of the images found within the cards  */
   .image {
     max-height: 186px;
   }
@@ -400,6 +419,7 @@
     width: 330px;
   }
 
+  /* Add more white space and position the taniwha-info properly within the card  */
   .taniwha-info {
     margin-top: 1rem;
   }
@@ -443,22 +463,27 @@
     width: 100%;
   }
 
+  /* Changes the dimenions of the logo and the nav bar */
   .main-nav .logo,
   .bgc .main-nav .logo {
     width: 150px;
     left: 0;
     margin-right: auto;
   }
-
+  /* Changes the font size of the texts found within the nav bar */
   .main-nav,
   .bgc .main-nav {
     font-size: 17px;
     justify-content: space-around;
   }
-
+  /* Changes the background position of the background image, so that the hill will be much more shown in the background */
   .header-wrapper {
     min-height: 90vh;
     background-position: bottom 10px;
+  }
+
+  #hero-section-btn::before {
+    right: -140px;
   }
 
   .text-container {
@@ -483,7 +508,7 @@
   .text-overlay {
     width: 800px;
   }
-
+  /* To increase the font-size of the overlay text that is on top of the image */
   .text-overlay p {
     margin-left: 2rem;
     font-size: 14px;
@@ -493,13 +518,15 @@
     height: 80vw;
   }
 
+  /* Alters the font-size of the quote and changs the height of the Maori pattern */
+
   .quote p {
     font-size: 16px;
   }
   .pattern {
     height: 4rem;
   }
-
+  /* Increase the font-size */
   .main-text-container h1 {
     font-size: 30px;
   }
@@ -542,6 +569,7 @@
     font-size: 14px;
     text-align: center;
   }
+  /* Make the texts in the footer have a flex-direction of column, which will put them in column instad of of rows, and will align these items into the cen */
   .footer-text {
     flex-direction: column;
     text-align: center;
@@ -581,6 +609,10 @@
     height: 27vh;
   }
 
+  .btn2::before {
+    left: -10px;
+  }
+
   .why-celebrate {
     margin-top: 16em;
   }
@@ -603,42 +635,57 @@
     display: none;
   }
 
+  /* Change the height of the tooltip, so that it wont be too high up from the button when hovered */
   .source-btn::before {
     --translate-y: calc(-50% - var(--arrow-size));
   }
-
+  /* Changes the font-size, and makes the tooltip position slightly to the right so that it wont get cut off */
   .source-btn::before {
     font-size: 12px;
-    right: -230px;
+    right: -150px;
   }
 
+  /* makes the tooltip position 400px to the right so that it wont get cut off */
   .first-btn::before {
     right: -400px;
   }
 
+  /* makes the tooltip position -70px to the left so that it wont get cut off */
   .btn3::before {
     left: -70px;
   }
+  .right-align-text a {
+    font-size: 13px;
+  }
+
+  .btn {
+    padding: 10px 25px;
+  }
+
   /* Celebrate Matariki */
 
+  /* Adds margin on the header title */
   .text-container1 {
     margin-left: 10px;
   }
+  /* Decreases teh font size of the hero title so that it will fit the screen */
   .text-container1 h1 {
     font-size: 80px;
     width: 90%;
     line-height: 85px;
   }
 
+  /* Altering the size of the backround image */
   .hero-image {
     min-height: 65vh;
   }
-
+  /* Altering the font-size of the paragraph */
   .text-container1 p {
     font-size: 16px;
     width: 90%;
   }
 
+  /* Changing the font-size of the header title */
   .stargazing-info h1,
   .section-title h1 {
     margin-left: 10px;
@@ -650,21 +697,25 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
+  /* Positions the cards in the middle of the container, this is done by the margin:auto. The width:400px tells us that each cards should have a width of 400px.  */
   .cards {
     margin: auto;
     width: 400px;
   }
 
+  /* Specifies specific height that the image found in the cards should have */
   .image {
     max-height: 226px;
   }
 
+  /* Specifies specific height that the image found in the cards should have */
   .image2,
   .image4,
   .image5 {
     width: 400px;
   }
 
+  /*Changes the font-size of teh paragraph text*/
   .stargazing-info p {
     font-size: 18px;
     width: 100%;
