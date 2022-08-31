@@ -1,38 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap"); /*Font Family imported from Google fonts - this font is going to be used for the navigation links*/
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the header*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the main-body texts*/
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the quotes texts*/
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the sub-headers texts*/
-@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the cards- texts*/
-
-:root {
-  --primary-colour: #3b245a;
-  --hovered-colour: #604487;
-  --gradient-background-colour: linear-gradient(180deg, rgba(89, 113, 185, 0) 4.17%, rgba(50, 57, 79, 0.277485) 7.81%, rgba(12, 30, 83, 0.73) 82.29%);
-  --max-width: 1679px;
-  --font-style-navigation: "Inter", sans-serif;
-  --font-style-main-headers: "Bebas Neue", cursive;
-  --font-stlyle-main-body: "Open Sans", sans-serif;
-  --font-style-quotes: "Lato", sans-serif;
-  --font-style-sub-headers: "Merriweather Sans", sans-serif;
-}
-
 .header-wrapper1 {
   height: 130px;
 }
 
+/* Codes for the hero-image */
 .hero-image {
   top: -10px;
   position: relative;
   min-height: 80vh;
   background-image: url(/Images/Rectangle\ 23celebrate-hero.png);
   background-position: center;
+  /* Darkens the image */
   background-color: rgba(0, 0, 0, 0.2);
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+/* 
+  The lines of code below codes for the texts that is found in the hero-section
+*/
 .text-container1 {
   position: relative;
   padding-top: 5rem;
@@ -73,7 +59,7 @@
 .cards-section a {
   text-decoration: none;
 }
-
+/* Adds styles to the Cards, make the corner round and specifies their height and width */
 .cards {
   border-radius: 21px;
   display: flex;
@@ -112,13 +98,13 @@
 .cards-title h2 {
   font-family: var(--font-style-quotes);
   font-size: 34px;
-  font-weight: 900px;
+  font-weight: 900;
   line-height: 40px;
 }
 
 .translation {
   font-size: 18px;
-  font-weight: 900px;
+  font-weight: 900;
 }
 
 .cards-excerpt {
@@ -185,7 +171,7 @@
 .section-title h1 {
   font-family: var(--font-style-sub-headers);
   font-size: 60px;
-  font-weight: 80px;
+  font-weight: 900;
 }
 
 .stargazing-info p {

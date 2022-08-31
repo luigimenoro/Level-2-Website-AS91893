@@ -1,22 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap"); /*Font Family imported from Google fonts - this font is going to be used for the navigation links*/
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the header*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the main-body texts*/
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the quotes texts*/
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the sub-headers texts*/
-@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap"); /*Font Family imported from Google fonts - this font is going to be used  for the cards- texts*/
-
-:root {
-  --primary-colour: #3b245a;
-  --hovered-colour: #604487;
-  --gradient-background-colour: linear-gradient(180deg, rgba(89, 113, 185, 0) 4.17%, rgba(50, 57, 79, 0.277485) 7.81%, rgba(12, 30, 83, 0.73) 82.29%);
-  --max-width: 1679px;
-  --font-style-navigation: "Inter", sans-serif;
-  --font-style-main-headers: "Bebas Neue", cursive;
-  --font-stlyle-main-body: "Open Sans", sans-serif;
-  --font-style-quotes: "Lato", sans-serif;
-  --font-style-sub-headers: "Merriweather Sans", sans-serif;
-}
-
 /*Start of the navigation bar*/
 
 .header-wrapper1 {
@@ -31,6 +12,11 @@ this includes the sections "What is Matariki", "Significance of Matariki", and "
   width: 80%;
 }
 
+/* 
+  The lines of code below codes for the main-body, or the main text
+  this includes the sections "What is Matariki", "Significance of Matariki", and "Why celebreate Matariki". 
+  The main key thing  about this, is that they have a layout where one content is left-aligned and the next content is right aligned.
+*/
 .right-align-text a {
   font-size: 20px;
   text-decoration: none;
@@ -66,6 +52,7 @@ this includes the sections "What is Matariki", "Significance of Matariki", and "
   height: 80vh;
 }
 
+/* The source buttons are inside a container which is called "sourcebtns" and the code you see below is that container */
 .sourcebtns {
   top: -110px;
   padding: 10px;
@@ -75,18 +62,21 @@ this includes the sections "What is Matariki", "Significance of Matariki", and "
   justify-content: space-around;
 }
 
+/* This is the first source-btn this is just to make sure that the button is located on the bottom corner of the image */
+
 .source {
   width: 700px;
   display: flex;
   justify-content: flex-end;
 }
-
+/* This is the second source-btn this is just to make sure that the button is located on the bottom corner of the image */
 .source2 {
   width: 750px;
   display: flex;
   justify-content: flex-end;
 }
 
+/* This is the third source-btn this is just to make sure that the button is located on the bottom corner of the image */
 .source3 {
   padding-right: 20px;
   padding-bottom: 10px;

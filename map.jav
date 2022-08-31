@@ -204,56 +204,61 @@ function initMap() {
       }
   
 
-    var infoWindow = new google.maps.InfoWindow(infoWindowOptions)
-    var infoWindow1 = new google.maps.InfoWindow(infoWindowOptions1)
-    var infoWindow2 = new google.maps.InfoWindow(infoWindowOptions2)
-    var infoWindow3 = new google.maps.InfoWindow(infoWindowOptions3)
-    var infoWindow4 = new google.maps.InfoWindow(infoWindowOptions4)
-    var infoWindow5 = new google.maps.InfoWindow(infoWindowOptions5)
-    var infoWindow6 = new google.maps.InfoWindow(infoWindowOptions6)
+    var infoWindow = new google.maps.InfoWindow(infoWindowOptions) // Adds a new info window
+    var infoWindow1 = new google.maps.InfoWindow(infoWindowOptions1) // Adds a new info window
+    var infoWindow2 = new google.maps.InfoWindow(infoWindowOptions2) // Adds a new info window
+    var infoWindow3 = new google.maps.InfoWindow(infoWindowOptions3) // Adds a new info window
+    var infoWindow4 = new google.maps.InfoWindow(infoWindowOptions4) // Adds a new info window
+    var infoWindow5 = new google.maps.InfoWindow(infoWindowOptions5) // Adds a new info window
+    var infoWindow6 = new google.maps.InfoWindow(infoWindowOptions6) // Adds a new info window
 
+
+    // The folowing lines of codes, assigns a new variable this variable is the cards that was created before eg. infoWindowOptions1 etc
+    // This puts the cards with the infromation to the map, but this will still not show, as I still havent assigned it to show. 
     var infoWindowOpenOptions = {
-      map: map,
-      anchor: marker,
+      map: map, 
+      anchor: marker, // Positions the cards on top of their specified marker
       shouldFocus: false
     }
 
     var infoWindowOpenOptions1 = {
       map: map,
-      anchor: marker2,
+      anchor: marker2, // Positions the cards on top of their specified marker
       shouldFocus: false
     }
     
     var infoWindowOpenOptions2 = {
       map: map,
-      anchor: marker3,
+      anchor: marker3, // Positions the cards on top of their specified marker
       shouldFocus: false
     }
 
     var infoWindowOpenOptions3 = {
       map: map,
-      anchor: marker4,
+      anchor: marker4, // Positions the cards on top of their specified marker
       shouldFocus: false
     }
 
     var infoWindowOpenOptions4 = {
       map: map,
-      anchor: marker5,
+      anchor: marker5, // Positions the cards on top of their specified marker
       shouldFocus: false
     }
 
     var infoWindowOpenOptions5 = {
       map: map,
-      anchor: marker6,
+      anchor: marker6, // Positions the cards on top of their specified marker
       shouldFocus: false
     }
 
     var infoWindowOpenOptions6 = {
       map: map,
-      anchor: marker7,
+      anchor: marker7, // Positions the cards on top of their specified marker
       shouldFocus: false
     }
 
+
+    // The following lines of codes, code for whenever the user clicks the marker, the info window will open  or pop up/
     marker.addListener("click", () => {
       infoWindow.open(infoWindowOpenOptions);
     });
