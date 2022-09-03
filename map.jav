@@ -259,33 +259,49 @@ function initMap() {
 
 
     // The following lines of codes, code for whenever the user clicks the marker, the info window will open  or pop up/
-    marker.addListener("click", () => {
+  
+    var activeInfoWindow;
+
+    marker.addListener("click", function() {
+      if(activeInfoWindow) {activeInfoWindow.close();}
       infoWindow.open(infoWindowOpenOptions);
+      activeInfoWindow = infoWindow
     });
 
-    marker2.addListener("click", () => {
+    marker2.addListener("click", function () {
+      if(activeInfoWindow) {activeInfoWindow.close();}
       infoWindow1.open(infoWindowOpenOptions1);
+      activeInfoWindow = infoWindow1
     });
 
-    marker3.addListener("click", () => {
+    marker3.addListener("click", function () {
+      if(activeInfoWindow) {activeInfoWindow.close();}
       infoWindow2.open(infoWindowOpenOptions2);
+      activeInfoWindow = infoWindow2
     });
 
-    marker4.addListener("click", () => {
+    marker4.addListener("click", function () {
+      if(activeInfoWindow) {activeInfoWindow.close();}
       infoWindow3.open(infoWindowOpenOptions3);
+      activeInfoWindow = infoWindow3
     });
 
-    marker5.addListener("click", () => {
+    marker5.addListener("click", function () {
+      if(activeInfoWindow) {activeInfoWindow.close();}
       infoWindow4.open(infoWindowOpenOptions4);
+      activeInfoWindow = infoWindow4
     });
 
-    marker6.addListener("click", () => {
+    marker6.addListener("click", function () {
+      if(activeInfoWindow) {activeInfoWindow.close();}
       infoWindow5.open(infoWindowOpenOptions5);
+      activeInfoWindow = infoWindow5
     });
 
-    marker7.addListener("click", () => {
+    marker7.addListener("click", function () {
+      if(activeInfoWindow) {activeInfoWindow.close();}
       infoWindow6.open(infoWindowOpenOptions6);
+      activeInfoWindow = infoWindow6
     });
-  }
   
   
